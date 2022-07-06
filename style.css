@@ -37,12 +37,12 @@
 .contenu{
     width: 100%;
     position: absolute;
-    top:72%;
+    top: 70%;
 }
 .col-gauche{
     margin-left: 6% ;
 }
-.col-gauche h1{
+.col-gauche a{
     font-size: 90px;
     color: aliceblue;
     line-height: 110px;
