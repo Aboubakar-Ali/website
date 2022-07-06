@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Akpr_zen</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="ArrierePlan">
+            <div class="navbar">
+                <img src="media/logo.png" class="logo">
+                <ul>
+                    <li><a href="root/index1.html">Playlist</a></li>
+                    <li><a href="#">A Propos</a></li>
+                </ul>
+            </div>
+            <div class="contenu">
+                <div class="col-gauche">
+                    <h1>Playlist </br>SAD</h1>
+                </div>
+                <div class="col-droite">
+                    <p>Ecouter la compilation de nos </br>  meilleurs sons puis pour suivre</br>  l'integraliter des sons cliquez</br> sur le menu Playlist</p>
+                    <img src="media/play.png" id="btnplay">
+                </div>
+            </div>
+        </div>
+        <audio id="MaMusic">
+            <source src="media/bestcompilation.mp3" type="audio/mp3">
+        </audio>
+<script>
+    var MaMusic = document.getElementById("MaMusic")
+    var btnplay = document.getElementById("btnplay")
+
+    btnplay.onclick = function(){
+        if(MaMusic.paused){
+            MaMusic.play();
+            btnplay.src = "media/pause.png"
+        }else{
+            MaMusic.pause();
+            btnplay.src = "media/play.png"
+        }
+    }
+</script>      
+
+    </body>
+</html>
