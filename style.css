@@ -137,3 +137,12 @@ footer{
     width: 80;
     cursor: pointer;
 }
+.follow{
+    font-size: 18px;
+    color: rgb(17, 15, 14);
+    font-weight: 500;
+    margin: 15px;
+}
+.follow p {
+    text-align: center;
+}
