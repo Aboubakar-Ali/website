@@ -1,0 +1,40 @@
+body, html, header, h1{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: helvetica;
+}
+body, html, header{
+    width: 100%;
+    height: 100%;
+}
+header {
+    background-image: url("https://complex-res.cloudinary.com/images/c_crop,h_450,w_588,x_47,y_36/f_auto,fl_lossy,q_auto,w_1200/ywvfiwehv9d2xrzymkzz/no-wyld-2016");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: aliceblue;
+}
+.back{
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.content{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    text-shadow: 1px 1px 1px black;
+}
+h1{
+    font-size: 65px;
+}
+.subtitle{
+    font-size: 23px;
+}
+main {
+    max-width: 650px;
+    margin: 80px auto;
+    background-color: aqua;
+}
